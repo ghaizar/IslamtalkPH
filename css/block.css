@@ -1,0 +1,126 @@
+
+body{
+  background-image:url('/img/bg.jpg');
+}
+
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+  border: 2px solid;
+  padding:15px;
+  margin-top:7px;
+
+
+}
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+} 
+
+.heading{
+
+  background-color:#2c5f2d;
+  color: #97bc62ff ;
+  padding:15px;
+  text-align:center;
+}
+
+h1 {font-weight: 900;}
+
+.main {
+  float:right;
+  width:60%;
+  padding:6px 20px;
+}
+
+.right {
+ 
+  float:right;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+  border: 2px solid;
+}
+
+
+.footer{
+  /*background-color:#e5e5e5;*/
+  text-align:center;
+  padding:10px;
+  margin-top:7px;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .main, .menu, .right {
+    width:100%;
+  }
+}
+
+  /* For canvas: */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  float:left;
+  text-align:center;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.imgres{
+float:right;
+ width: 100%;
+  height: auto;
+}
+
+
+
+

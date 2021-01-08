@@ -1,0 +1,160 @@
+body { overflow-x: hidden; }
+    .popover-body {
+        padding: .5rem .75rem;
+        color: green;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    #page_title {
+        position: fixed;
+        z-index: 100;
+        background-color: #FFF;
+        border-bottom: 1px solid #000;
+    }
+    #page_controls {
+        position: fixed;
+        z-index: 100;
+        background-color: #FFF;
+        border-top: 1px solid #000;
+        bottom: 1px;
+        padding: 10px;
+    }
+    #text_content {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .no-edit-content {
+        border-right: 1px solid #000;
+    }
+    .edit-content {
+        border-left: 1px solid white;
+		
+    }
+
+    .no-edit-content h1 {
+        position: fixed;
+        top: 5px;
+        left: 5px;
+    }
+    .row-section {
+        display: block;
+        width: 100%;
+        color: #FFF;
+        height: 28px;
+        padding-left: 10px;
+    }
+    .title-container, .intro-container, .fulltext-container, .description-container, .metakey-container, .metadesc-container {
+        padding-bottom: 10px;
+    }
+    .title-container {
+        min-height: 90px;
+    }
+    .intro-container, .description-container, .metakey-container, .metadesc-container {
+        min-height: 200px;
+    }
+    .fulltext-container {
+        height: auto;
+    }
+    .bg-content {
+        background-color: #FAFCFE;
+    }
+
+    .confirmation {
+        max-width: 400px;
+        top: 10px;
+        right: 20px;
+        font-weight: bold;
+    }
+    .btn {
+        font-weight: bold;
+    }
+
+            .confirmation-show {
+            display: none !important;
+        }
+		
+		
+		    p.w-body-text-1, li.w-body-text-1, div.w-body-text-1 {
+        margin-bottom:8.0pt;
+        margin-top:8.0pt;
+        text-indent:19.85pt;
+        padding: 1px 0px;
+    }
+
+    p.w-quran, li.w-quran, div.w-quran {
+        margin-top:0in;
+        margin-right:42.55pt;
+        margin-bottom:8.0pt;
+        margin-left:42.55pt;
+        font-size:15px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight:bold;
+        color: #666666;
+        padding: 8px 0px;
+    }
+
+    p.w-hadeeth-or-bible, li.w-hadeeth-or-bible, div.w-hadeeth-or-bible {
+        margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:0in;
+        font-size:15px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight:bold;
+        color: #666666;
+    }
+
+    p.w-body-text-bullet, li.w-body-text-bullet, div.w-body-text-bullet {
+        margin-top:0in;
+        margin-right:0in;
+        margin-bottom:10px;
+        margin-left:22.7pt;
+        text-indent:-22.7pt;
+        padding-bottom: 5px;
+    }
+
+    .fulltext h2, p.w-head-2, li.w-head-2, div.w-head-2 {
+        margin-top:15px;
+        margin-right:0in;
+        margin-bottom:10px;
+        margin-left:0in;
+        page-break-after:avoid;
+        font-size:18px;
+        color:green;
+        font-weight:bold;
+    }
+
+    .fulltext h3, p.w-head-3, li.w-head-3, div.w-head-3 {
+        margin-top:15px;
+        margin-right:0in;
+        margin-bottom:10px;
+        margin-left:0in;
+        font-size:16px;
+        font-weight:bold;
+        color: #666666;
+    }
+
+    .fulltext h4, p.w-head-4, li.w-head-4, div.w-head-4 {
+        margin-top:15px;
+        margin-right:0in;
+        margin-bottom:10px;
+        margin-left:0in;
+        font-size:17px;
+        font-weight:bold;
+        color: #666666;
+    }
+
+    p.w-goals-title, li.w-goals-title, div.w-goals-title {
+        margin-top:15px;
+        margin-right:0in;
+        margin-bottom:10px;
+        margin-left:0in;
+        font-size: 17px;
+        font-weight:bold;
+        color: #666666;
+        padding: 0px;
+    }
+
+    p.w-goals-points, li.w-goals-points, div.w-goals-points {
+        padding-bottom: 10px;
+    }

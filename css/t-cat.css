@@ -1,0 +1,32 @@
+table
+ {
+ 	background-color:#97bc62ff;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	page-break-inside:auto;
+	font-weight: 900;
+ }
+ 
+ 	th,td {
+		border: 2px solid black;
+		padding: 8px;
+	}
+	
+	tr:hover {
+		background-color: #ddd;
+		}
+		
+	tr:nth-child(even){
+		background-color: #f2f2f2;
+		}
+	th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+	height: 50px;	
+	
+	}
+ 
